@@ -1,7 +1,19 @@
 import java.util.Arrays;
 
+
+ /**
+ * The class Matrix utils test
+ */ 
 public class MatrixUtilsTest {
-    public static void main(String[] args) {
+
+/** 
+ *
+ * Main
+ *
+ * @param args  the args. 
+ */
+    public static void main(String[] args) { 
+
         int[][] matrix1 = {{14, 65, 43}, {42, 12, 16}, {27, 2, 3}};
         int[][] matrix2 = {{19, 28, 27}, {36, 15, 24}, {43, 32, 21}};
 

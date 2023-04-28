@@ -1,8 +1,22 @@
 import java.util.Arrays;
 import java.util.function.IntFunction;
 
+
+ /**
+ * The class Matrix utils
+ */ 
 public class MatrixUtils {
-    public static int[][] sum(int[][] matrix1, int[][] matrix2) {
+
+/** 
+ *
+ * Sum
+ *
+ * @param matrix1  the matrix1. 
+ * @param matrix2  the matrix2. 
+ * @return int[][]
+ */
+    public static int[][] sum(int[][] matrix1, int[][] matrix2) { 
+
         int n = matrix1.length;
         int m = matrix1[0].length;
         int[][] result = new int[n][m];
@@ -21,4 +35,5 @@ public class MatrixUtils {
         return result;
     }
 }
+
 
